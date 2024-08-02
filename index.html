@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PocketVet</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+<style>
+.bg-video {
+   position:absolute;
+   top: 70px;
+   left: 0;
+   width: 100%;
+   height:100%;
+background-attachment: local;
+}
+.bg-video__content {
+   position: absolute;
+}
+</style>
+<script>
+module.exports = {
+  experimental: {
+    darkModeVariant: true
+  },
+  dark: 'class'
+</script>
+</head>
+<body class="font-sans antialiased">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="flex items-center space-x-4">
+                <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\pet-care.png" alt="PocketVet Logo" class="h-7">
+                <span class="text-2xl font-bold text-purple-700">PocketVet</span>
+            </div>
+            <nav class="space-x-8">
+                <a href="#" class="text-gray-700 hover:text-purple-700">Home</a>
+                <a href="#" class="text-gray-700 hover:text-purple-700">About</a>
+                <a href="#" class="text-gray-700 hover:text-purple-700">services</a>
+            </nav>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-700 hover:text-purple-700">Login</a>
+                <a href="#" class="px-4 py-2 bg-green-500 hover:bg-green-700 text-white rounded-full">Sign Up</a>
+            </div>
+        </div>
+    </header>
+
+<div class="container bg-video opacity-100 md:opacity-20 ">
+   <video class="bg-video__content" autoplay muted loop>
+      <source src="C:\Users\jiya1\OneDrive\Desktop\veternity\pets.mp4" type="video/mp4">
+   </video>
+</div>
+        
+<!-- Hero Section -->
+
+    <section class="py-20">
+
+        <div class="container mx-auto flex flex-col items-center text-center md:flex-row md:text-left md:justify-between">
+<div class="text-center sm:text-left"></div>
+            <div class="md:w-1/2">
+                <h1 class="text-4xl font-bold text-gray-900 hover:text-green-900">...Animals are such agreeable friends – they ask no questions, they pass no criticisms.</h1>
+                <h2 class="mt-4 text-gray-600 hover:text-green-900">..If having a soul means being able to feel love and loyalty and gratitude, then animals are better off than a lot of humans.</h2>
+<p>... If your pet need help ...^_^</p>
+        <div class="mt-6 flex">
+                    <button class="px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-full">ASK A VET</button>
+                </div>
+            </div>
+            <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center relative">
+                <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\dog.png"alt="Dog Image" class="h-64 w-64 rounded-full">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-20">
+        <div class="container mx-auto text-center bg-gray-100">
+            <h2 class="text-4xl font-bold text-gray-900">OUR SERVICES</h2>
+            <div class="mt-10 flex flex-wrap justify-center">
+                <div class="w-full md:w-1/3 px-4">
+                    <div class="bg-white hover:bg-gray-300 p-6 rounded-lg shadow-lg">
+                        <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\vacc.png" alt="Vaccination" class="h-12 mx-auto">
+                        <h3 class="mt-6 text-xl font-semibold">Vaccines</h3>
+                        <p class="mt-2 text-gray-600">Integer Ac Interdum Lacus. Nunc Porta Semper Lacus A Varius.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mt-10 md:mt-0">
+                    <div class="bg-white hover:bg-gray-300 p-6 rounded-lg shadow-lg">
+                        <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\groom.png" alt="Grooming" class="h-12 mx-auto">
+                        <h3 class="mt-6 text-xl font-semibold">Grooming</h3>
+                        <p class="mt-2 text-gray-600">Integer Ac Interdum Lacus. Nunc Porta Semper Lacus A Varius.</p>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/3 px-4 mt-10 md:mt-0">
+                    <div class="bg-white hover:bg-gray-300 p-6 rounded-lg shadow-lg">
+                        <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\shop.png" alt="Shopping" class="h-12 mx-auto">
+                        <h3 class="mt-6 text-xl font-semibold">Shop</h3>
+                        <p class="mt-2 text-gray-600">Integer Ac Interdum Lacus. Nunc Porta Semper Lacus A Varius.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="mt-10 px-4 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded-full">ASK  A.I</button>
+        </div>
+    </section>
+ <!-- Subscription Section -->
+    <section class="bg-green-500 py-20 text-white">
+        <div class="container mx-auto flex flex-col items-center text-center md:flex-row md:text-left md:justify-between">
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold">ABOUT US</h2>
+                <p class="mt-4 text-lg">For Flea And Wormer Treatments</p>
+                <button class="mt-6 px-6 py-2 bg-purple-500 hover:bg-purple-700 rounded-full">KNOW MORE</button>
+            </div>
+            <div class="mt-10 md:mt-0 md:w-1/2 flex justify-center">
+                <img src="C:\Users\jiya1\OneDrive\Desktop\veternity\petss.png" alt="Dog Image" class="h-64">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-900 py-10 text-white">
+        <div class="container mx-auto flex flex-wrap justify-between">
+            <div class="w-full md:w-1/4">
+                <h3 class="text-lg font-bold">CONTACT INFO</h3>
+                <p class="mt-4">We are a team of designers and developers that create high quality app.</p>
+                <p class="mt-4">Support Email: <a href="mailto:jasp@w@gmail.com" class="text-green-500">jasp@w@gmail.com</a></p>
+                <div class="mt-4 space-x-4">
+                    <a href="#"><img src="path/to/facebook.png" alt="Facebook" class="h-6 inline"></a>
+                    <a href="#"><img src="path/to/twitter.png" alt="Twitter" class="h-6 inline"></a>
+                    <a href="#"><img src="path/to/google.png" alt="Google" class="h-6 inline"></a>
+                    <a href="#"><img src="path/to/instagram.png" alt="Instagram" class="h-6 inline"></a>
+                </div>
+
+            </div>
+            <div class="w-full md:w-1/4">
+                <h3 class="text-lg font-bold">INFORMATION</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/4">
+                <h3 class="text-lg font-bold">CUSTOMER CARE</h3>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="#" class="text-gray-400 hover:text-white">My Account</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">my orders</a></li>
+                    <li><a href="#" class="text-gray-400 hover:text-white">Login</a></li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/4">
+                <h3 class="text-lg font-bold">HAVE A NICE DAY!!!:-D</h3>
+               </body>
+</html>
